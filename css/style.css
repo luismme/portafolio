@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,400i,700|Pathway+Gothic+One');
+
+body, html{
+  height: 100%;
+  font-family: 'Cardo';
+  color: #000;
+  overflow: auto;
+}
+
+.espaciado{
+  padding: 30px 0;
+}
+
+h1{
+  font-family: 'Pathway Gothic One';
+  color: #002641;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+/*Sec Hero*/
+#sec-hero{
+  background-image: url(../img/luis-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0px;
+  height: 600px;
+}
+
+#sec-hero h1{
+  margin-top: 100px;
+  font-size: 100px;
+  font-size: 75px;
+  color: #fff;
+}
+
+#sec-hero p{
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+/*Sec Acerca*/
+#sec-acerca{
+  background-color: #E6E6EA;
+}
+
+#sec-acerca h1{
+  color: #002641;
+  font-size: 42px;
+  text-align: center;
+}
+
+#sec-acerca p{
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+/*Sec Servicios*/
+#sec-servicios p{
+  text-align: center;
+  margin-top: -35px;
+  padding-right: 30px;
+}
+
+.servicios{
+	margin: 45px 0;
+}
+
+.servicios li{
+	display: inline-block;
+}
+.servicios a{
+	display: block;
+	color: #002641;
+  font-size: 70px;
+  text-align: center;
+  transition: all ease 0.3s;
+}
+.servicios a:hover{
+	background-color: #fff;
+	color: #F4ACB7;
+	transition: all ease 0.5s;
+}
+
+/*Sec Galeria*/
+#sec-galeria{
+  background-color: #E6E6EA;
+}
+
+.portafolio{
+  margin: 25px 0 0 0;
+}
+
+/*Footer*/
+footer{
+  background-color: #F4ACB7;
+  padding: 10px;
+  text-align: center;
+  color: #002641;
+}
